@@ -1,0 +1,75 @@
+.bannerImage{
+    /* margin-top: -5rem; */
+    object-fit: cover;
+   
+    width: 100%;
+    /* height: 32rem;
+    height: 29rem; */
+}
+
+.imgBuck{
+    margin-left: 10px;
+}
+.mainBanner{
+    /* background: #111111;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    color: white; */
+}
+.content-left {
+   position: absolute;
+   top: 5rem;
+   left: 16px;
+}
+.carousel-caption{
+    position: absolute;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: #fff;
+    top: 8rem;
+    max-width: 37rem;
+}
+.bannerCaption{
+    font-size: 3rem;
+    font-weight: bold;
+}
+.captionDescription{
+    line-height: 28px;
+}
+.productImages{
+    position: absolute;
+    top: 0%;
+    right: -5%;
+}
+.buyButton{
+    margin-top: 13rem;
+    background-color: #F9DE08;
+    position: absolute;
+    
+}
+.hello{
+    color: blue;
+    background-color: #F9DE08;
+    border-radius: 4px;
+    width: 110px;
+    height: 40px;
+    border: 4px solid #F9DE08;
+    float: left;
+    display: flex;
+    font-size: 13px;
+    font-weight: 550;
+    font-family: 'Heebo',sans-serif;
+    padding-top: 6px;
+}
+
+.hello img{
+    position: relative;
+    right: -4px;
+}
+.hello2{
+    padding-top: 230px;
+}
+
+
+

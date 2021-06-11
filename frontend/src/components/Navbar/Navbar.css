@@ -1,0 +1,118 @@
+.buttonSet{
+    display: inline-block;
+    float: right;
+}
+.searchDiv{
+    width: 100%;
+    display: inline;
+}
+
+
+#headerSet{
+    width: 100%;
+    background-color: white;
+    height: 5.5rem;
+    padding-top: 0.8rem;
+    position: relative;
+    text-align: center;
+}
+.logoHeader{
+    display: inline;
+    float: left;
+    margin-left: 2rem;
+    font-size: 2rem;
+    margin-left: 4vw;
+}
+.searchBox{
+    max-width: 17rem;
+    border: 0;
+    padding: 0.5rem 0.5rem 0.5rem 0;
+    flex: 1;
+}
+.searchContainer {
+    display: inline-flex;
+    flex: 1 1 300px;
+    position: relative;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.searchIcon {
+    padding: 0.5rem;
+}
+.iconsContainer{
+    float: right;
+    margin-right: 2vw;
+    margin-top: 8px;
+}
+.icons{
+    margin-right: 1rem;
+    font-size: 21px;
+    cursor: pointer;
+}
+.hamburgerIcon{
+    float: right;
+    margin-right: 18px;
+    margin-top: 12px;
+    font-size: 24px;
+    display: none;
+}
+
+.countIcon{
+    display: inline-block;
+    background-color: blue;
+    border-radius: 50%;
+    font-size: 11px;
+    width: 13px;
+    height: 13px;
+    color: white;
+    line-height: 14px;
+    position: absolute;
+    margin-left: 11px;
+    margin-top: 3px;
+    z-index: 1;
+    cursor: pointer;
+}
+.userButton{
+    background-color: transparent;
+    border: none;
+    width: 1.2rem;
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    margin-right: 10px;
+}
+#button-Login{
+    float: right;
+    margin-right: 2rem;
+    margin-top: 7px;
+    background-color: blue;
+    border: 2px solid #6c6cd9;
+    border-radius: 6px;
+    font-size: 17px;
+    padding-left: 1.3rem;
+    padding-right: 1.3rem;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    color: white;
+    font-weight: 500;
+}
+@media only screen and (max-width: 840px){
+    #button-Login{
+        font-size: 10px;
+    }
+    .logoHeader{
+        font-size: 1.5rem;
+    }
+}
+@media only screen and (max-width: 940px){
+    #searchBar{
+        
+        width: 36vw;
+        display: none;
+    }    
+    .MuiPaper-root{
+        height: 26px !important;
+    }
+}

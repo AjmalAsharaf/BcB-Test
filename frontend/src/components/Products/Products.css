@@ -1,0 +1,96 @@
+#popularProducts{
+    height: 25rem;
+    margin: 2rem;
+    border: 1px solid silver;
+    margin-bottom: 10px;
+    box-shadow: 0px 2px 5px silver;
+}
+.sectionHead{
+    float: left;
+    font-weight: 400;
+    margin-left: 2vw;
+    margin-top: 1.3rem;
+    font-size: 1.5rem;
+}
+.viewMore{
+    padding-top: 4vh;
+    color: #0302FE;
+    font-weight: 600;
+    float: right;
+    font-size: 14px;
+    margin-right: 3vw;
+    cursor: pointer;
+}
+.productsRow{
+    border-top: 1px solid #dcd0d0;
+    height: 21rem;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    width: 100%;
+}
+.sectionHeader{
+    height: 5rem;
+}
+.productCard{
+    height: 15rem;
+    margin: 2rem;
+    margin-top: 2.5rem;
+    border: 1px solid silver;
+    box-shadow: #aaa 0px 3px 9px;
+    width: 13rem;
+    display: inline-block;
+    padding-top: 1rem;
+
+}
+.productsRow::-webkit-scrollbar{
+    display: none;
+}
+.popularProductImage{
+    /* height: 8rem;
+    margin-top: 1rem; */
+    margin-left: 2rem;
+}
+.popularProductBrand{
+    display: flex;
+    font-size: 11px;
+    color: #484444;
+}
+.popularProductDescription{
+    padding-left: 12px;
+    padding-top: 5px;
+}
+.ppName{
+    float: left;
+    font-size: 15px;
+}
+.offerBadge{
+    display: table;
+    background-color: #F0FFEA;
+    color: #30A701;
+    padding: 3px 6px;
+    font-size: 8px;
+    border-radius: 4px;
+    float: right;
+    margin-right: 12px;
+}
+.ppPrice{
+    float: left;
+    margin-top: -1.2rem;
+    color: #0377FF;
+}
+.ppOldPrice{
+    font-size: 9px;
+    margin: 1px 12px;
+    color: #9B9B9B;
+}
+.ppToggler{
+    float: right;
+    margin-top: -12px;
+}
+@media only screen and (max-width: 425px){
+	/*Small smartphones [325px -> 425px]*/
+    #popularProducts{
+        margin: 0;
+    }
+}
